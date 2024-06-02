@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    opacity: 0;
+    transition: opacity 3s;
+    background-image: radial-gradient(rgb(228, 143, 191), white);
+}
+
+.hero {
+    width: 100%;
+}
+
+.nav {
+    background-image: linear-gradient(rgb(228, 143, 191), rgb(255, 255, 255), rgb(228, 143, 191));
+    padding: 20px 0;
+}
+
+.nav .logo {
+    color: #5c095f;
+    margin-left: 550px;
+}
+
+.nav .link {
+    margin-left: 490px;
+}
+
+.nav .link ul {
+    list-style: none;
+}
+
+.nav .link ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav .link ul li a {
+    text-decoration: none;
+    color: #520856;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav .link ul li a:hover {
+    color: #f58ece;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 80px);
+    background-image: url('https://www.wallpaperflare.com/static/769/267/591/pattern-pink-white-background-wallpaper.jpg');
+    background-size: 100%;
+}
+
+.sample-photo {
+    width: 250px;
+    height: 320px;
+    border-radius: 70%;
+    margin-right: 50px;
+}
+
+.main-detil {
+    text-align: center;
+}
+
+.main-detil p {
+    color: #420552;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.main-detil h1 {
+    color: #010002;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.main-detil h4 {
+    color: #3c0a27;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+.btn button {
+    padding: 10px 20px;
+    background-color: #2e042e;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn button:hover {
+    background-color: #e649d4;
+}
+
+.social {
+    margin-top: 20px;
+    color: #f4637b;
+}
+
+.social a {
+    color: #343a40;
+    font-size: 24px;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+}
+
+.social a:hover {
+    color: #f4637b;
+}
+
+.main-section {
+    background-image: url('https://www.wallpaperflare.com/static/769/267/591/pattern-pink-white-background-wallpaper.jpg');
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.main-section h2 {
+    color: #343a40;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.main-section p {
+    color: #495057;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.main-section ul {
+    list-style: none;
+}
+
+.main-section ul li {
+    color: #495057;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    color: #343a40;
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form input[type="submit"] {
+    background-color: #f4637b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #e64980;
+}
+
+/* Skill Bars */
+.skill-bar {
+    margin: 20px 0;
+    text-align: left;
+}
+
+.skill-bar p {
+    color: #343a40;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.skill-bar .progress {
+    background: #ddd;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.skill-bar .progress-bar {
+    display: block;
+    height: 25px;
+    background-image: linear-gradient(to right, rgb(109, 12, 75), rgb(239, 80, 197));
+    color: #ffffff;
+    text-align: center;
+    line-height: 25px;
+    font-size: 16px;
+}
+.skill-bar {
+    margin-bottom: 20px;
+}
+
+.skill-bar p {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.progress {
+    background: #ddd;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    display: block;
+    height: 25px;
+    background-image: linear-gradient(to right, rgb(203, 60, 177), rgb(239, 80, 197));
+    color: #ffffff;
+    text-align: center;
+    line-height: 25px;
+    font-size: 16px;
+}
+

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Likhitha Varma</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+</head>
+
+<body onload="document.body.style.opacity='1'">
+    <div class="hero">
+        <div class="nav">
+            <div class="logo">
+                <h2>Likhitha Varma</h2>
+            </div>
+            <div class="link">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="main">
+            <img src="image/girl.jpg" alt="Sample Photo" class="sample-photo">
+            <div class="main-detil">
+                <p>Hello, I'm</p>
+                <h1>Likhitha Varma</h1>
+                <h4>Web Developer</h4>
+
+                <div class="btn">
+                    <button type="submit" class="btn-2">Hire Me</button>
+                </div>
+
+                <div class="social">
+                    <a href="#"><i class='bx bxl-github'>Github</i></a>
+                    <a href="#"><i class='bx bxl-instagram'>LinkedIn</i></a>
+                </div>
+            </div>
+        </div>
+        <div id="about" class="main-section">
+            <h2>About</h2>
+            <p>Enthusiastic and dedicated computer science student with a passion for coding and problem-solving.</p>
+        </div>
+
+        <div id="courses" class="main-section">
+            <h2>Courses</h2>
+            <ul>
+                <li>Python Essentials 1 at Cisco Networking Academy (November 2023)</li>
+            </ul>
+        </div>
+
+        <div id="skills" class="main-section">
+            <h2>Skills</h2>
+            <div class="skill-bar">
+                <p>Programming Languages:</p>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 70%;">C</div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 80%;">Java</div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 90%;">Python</div>
+                </div>
+            </div>
+            <div class="skill-bar">
+                <p>Web Development:</p>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 85%;">HTML</div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 75%;">CSS</div>
+                </div>
+            </div>
+            <div class="skill-bar">
+                <p>Database Management:</p>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 60%;">SQL</div>
+                </div>
+            </div>
+        </div>
+        
+
+        <div id="contact" class="main-section">
+            <h2>Contact</h2>
+            <form action="mailto:likhithav5265@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
